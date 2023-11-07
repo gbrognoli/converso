@@ -1,0 +1,5 @@
+print('Converta reais $ em Dolar U$ ?')
+reais=  input('Informe o valor de reais?')
+dolar = input('Informe o valor do câmbio do dólar (por exemplo, 5.25)?')
+conversão = int(reais) * float(dolar) 
+print(f'O valor de reais fica :{conversão} dolares')
